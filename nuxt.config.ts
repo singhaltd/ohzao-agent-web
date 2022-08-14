@@ -47,7 +47,7 @@ export default defineNuxtConfig({
                 },
             },
         },
-        transpile: ['vee-validate', '@vee-validate/rules', 'moment'],
+        transpile: ['vee-validate', '@vee-validate/rules', 'moment','qrcode-vue3'],
     },
     intlify: {
         localeDir: 'locales',

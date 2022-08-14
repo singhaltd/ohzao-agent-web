@@ -1,7 +1,10 @@
 <template>
   <div id="app">
-    <ThemeToggle />
     <NuxtLoadingIndicator />
-    <NuxtPage />
+    <NavbarAside
+    />
+    <div class="relative pl-20 bg-blueGray-100">
+      <NuxtPage />
+    </div>
   </div>
 </template>
